@@ -25,14 +25,14 @@
 ## Quick Start
 1. Download the project from the release tab: `https://github.com/p-i-c-o/koreader-wallhaven/releases`.
 2. Unzip it so `wallpaperfetch.koplugin` is inside `/mnt/onboard/.adds/koreader/plugins/`.
-3. Put your API key in `/mnt/onboard/.adds/koreader/plugins/wallpaperfetch.koplugin/scripts/wallhaven.cred` (replace placeholder).
+3. Get your Wallhaven API key from `https://wallhaven.cc/settings/account`, then put it in `/mnt/onboard/.adds/koreader/plugins/wallpaperfetch.koplugin/scripts/wallhaven.cred` (replace placeholder).
 4. Restart KOReader and use `Wallpaper Fetch` menu.
 
 ## Repo Layout
-- `/release/wallpaperfetch.koplugin` — KOReader plugin (Lua + shell scripts + config).
-- `/laptop_sync.py` — Laptop-side sync and processing tool.
-- `/requirements.txt` — Python dependencies for laptop tool.
-- `/wallhaven.cred` — Local API key placeholder for laptop script.
+- `/release/wallpaperfetch.koplugin` - KOReader plugin (Lua + shell scripts + config).
+- `/laptop_sync.py` - Laptop-side sync and processing tool.
+- `/requirements.txt` - Python dependencies for laptop tool.
+- `/wallhaven.cred` - Local API key placeholder for laptop script.
 
 ## Docs
 - **How it works:** Plugin offers `Sync`, `Edit Sync Settings`, and `Manual Search` flows.
