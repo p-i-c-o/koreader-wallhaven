@@ -23,9 +23,9 @@
 - Laptop script that reuses existing raw files and processes backlog automatically.
 
 ## Quick Start
-1. Download the project from the release tab: `https://github.com/p-i-c-o/koreader-wallhaven/releases`.
+1. Download the project from the [Releases tab](https://github.com/p-i-c-o/koreader-wallhaven/releases).
 2. Unzip it so `wallpaperfetch.koplugin` is inside `/mnt/onboard/.adds/koreader/plugins/`.
-3. Get your Wallhaven API key from `https://wallhaven.cc/settings/account`, then put it in `/mnt/onboard/.adds/koreader/plugins/wallpaperfetch.koplugin/scripts/wallhaven.cred` (replace placeholder).
+3. Get your Wallhaven API key from the [Wallhaven account settings](https://wallhaven.cc/settings/account), then put it in `/mnt/onboard/.adds/koreader/plugins/wallpaperfetch.koplugin/scripts/wallhaven.cred` (replace placeholder).
 4. Restart KOReader and use `Wallpaper Fetch` menu.
 
 ## Repo Layout
